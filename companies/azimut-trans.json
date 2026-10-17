@@ -1,0 +1,36 @@
+{
+  "slug": "azimut-trans",
+  "name": "Азимут-Транс",
+  "city": "Пермь",
+  "tagline": "Переезды и грузоперевозки · круглосуточно",
+  "phone": "+7 (342) 276-47-76",
+  "whatsapp": "79194682582",
+  "accent": "#E8590C",
+  "demo": {
+    "note": "Демо-версия для «Азимут-Транс». Цены взяты из прайса на azimut-trance.ru, минимальный заказ 2 часа — наше допущение, поменяем на ваш."
+  },
+  "minHours": 2,
+  "floorExtraHours": 0.15,
+  "kmBothWays": true,
+  "nightFrom": 22,
+  "nightTo": 7,
+  "vehicles": [
+    { "id": "gazel", "name": "Газель стандартная", "spec": "до 1,5 т · 9,5 м³", "size": 1, "rate": 800, "kmRate": 25 },
+    { "id": "gazel-long", "name": "Газель удлинённая 5 м", "spec": "до 1,5 т · 25 м³", "size": 2, "rate": 900, "kmRate": 30 },
+    { "id": "gazel-6", "name": "Газель 6,2 м", "spec": "до 3 т · 30 м³", "size": 3, "rate": 1000, "kmRate": 30 },
+    { "id": "man5", "name": "MAN 5 тонн", "spec": "до 5 т · 27 м³", "size": 4, "rate": 1500, "kmRate": 45, "minOrder": 6000 }
+  ],
+  "loaders": { "rate": 450, "nightRate": 600, "minHours": 2, "max": 4 },
+  "extras": [
+    { "id": "piano", "label": "Пианино", "price": 6000 },
+    { "id": "packing", "label": "Упаковка (плёнка, коробки)", "price": [500, 1500] },
+    { "id": "assembly", "label": "Разборка и сборка мебели", "price": [1000, 3000] }
+  ],
+  "promo": {
+    "percent": 10,
+    "minLoaders": 2,
+    "minHours": 3,
+    "vehicleIds": ["gazel", "gazel-long", "gazel-6"],
+    "label": "Скидка 10%: газель + 2 грузчика от 3 часов"
+  }
+}

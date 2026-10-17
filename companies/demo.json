@@ -1,0 +1,22 @@
+{
+  "slug": "demo",
+  "name": "Перевезём!",
+  "city": "Пермь",
+  "tagline": "Газели и грузчики · по городу и краю",
+  "phone": "+7 (900) 000-00-00",
+  "whatsapp": "79000000000",
+  "telegram": "example_mover",
+  "accent": "#1F7A5A",
+  "demo": { "note": "Демо-компания. Название, цены и контакты вымышленные." },
+  "sheetCsv": "companies/demo-sheet.csv",
+  "minHours": 2,
+  "vehicles": [
+    { "id": "gazel", "name": "Газель 3 м", "spec": "до 1,5 т · 9 м³", "size": 1, "rate": 750, "kmRate": 25 },
+    { "id": "gazel-long", "name": "Газель 4,2 м", "spec": "до 1,5 т · 18 м³", "size": 2, "rate": 850, "kmRate": 28 },
+    { "id": "truck5", "name": "Грузовик 5 т", "spec": "до 5 т · 36 м³", "size": 4, "rate": 1400, "kmRate": 45, "minOrder": 5600 }
+  ],
+  "loaders": { "rate": 400, "nightRate": 550, "minHours": 2, "max": 4 },
+  "extras": [
+    { "id": "packing", "label": "Упаковка", "price": [500, 1500] }
+  ]
+}
